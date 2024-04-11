@@ -1,5 +1,13 @@
 body{overflow-x: hidden;}
 
+._84_dn{
+    display: none;
+}
+
+._8484{
+    display: none;
+}
+
 .two_line{
     display: none;
 }
@@ -1301,6 +1309,10 @@ body{overflow-x: hidden;}
         height: 100vh;
     }
 
+    .banner_desc{
+        font-size: 22px;
+    }
+
     .banner{
         height: 100%;
         background-size: cover;
@@ -1558,6 +1570,13 @@ body{overflow-x: hidden;}
 
 @media screen and (max-width: 768px) {
 
+    ._84_dn{
+        display: block;
+    }
+    .banner_title{
+        font-size: 50px;
+    }
+
     .one_line{
         display: none;
     }
@@ -1786,6 +1805,20 @@ body{overflow-x: hidden;}
 
 
 @media screen and (max-width: 480px) {
+
+    ._8484{
+        display: block;
+    }
+
+    .banner_title{
+        left : 40px;
+    }
+
+    .banner_desc{
+        font-size: 20px;
+        top: 521px;
+        left: 10px;
+    }
 
       
     .header_sm{
@@ -2043,6 +2076,19 @@ body{overflow-x: hidden;}
 }
 
 @media screen and (max-width: 280px) {
+
+
+    .banner_title{
+        width: 100%;
+        font-size: 20px;
+        position: absolute;
+        top: 310px;
+        left: 20px;
+    }
+    
+    .banner_desc{
+        display: none;
+    }
 
 
     .header_sm{
