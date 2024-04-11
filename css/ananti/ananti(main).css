@@ -1632,6 +1632,10 @@ body{overflow-x: hidden;}
     }
 
 
+    .sm_menu_go_top{
+        right: 30px;
+    }
+
     .e_online_header{
 
         padding: 0;
@@ -1890,6 +1894,11 @@ body{overflow-x: hidden;}
 
     .btn{
         width: 203px;
+       
+    }
+
+    .btn_box{
+        display: flex;
     }
 
 
@@ -1906,6 +1915,14 @@ body{overflow-x: hidden;}
 }
 
 @media screen and (max-width: 320px) {
+    .banner_title{
+        display: none;
+      }
+      
+      .banner_desc{
+          display: none;
+      }
+  
 
     .header_sm{
         height: 8px;
@@ -2079,11 +2096,7 @@ body{overflow-x: hidden;}
 
 
     .banner_title{
-        width: 100%;
-        font-size: 20px;
-        position: absolute;
-        top: 310px;
-        left: 20px;
+      display: none;
     }
     
     .banner_desc{
